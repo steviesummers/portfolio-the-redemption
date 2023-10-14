@@ -5,12 +5,49 @@
     --heliotrope: #e866ec;
   }
   .links-row{
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-    
+      gap: 15px;
+      justify-content: right;
+      
 
+
+
+  }
+
+.
+}
+
+  li {
+    list-style-type: none
+  }
+
+  header {
+    background-color: #33393f;
+  }
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    color: #d2bb25;
+   
+
+  
+  }
+
+  header a:visited{
+    color: rgba(163, 9, 104, 0.551);
+  }
+
+  
+ 
+  a:visited {
+    color: green;
   }
 
 
@@ -25,6 +62,12 @@
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
   }
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
   
   .code-card:hover,
   .code-card:hover .card-header {
@@ -40,4 +83,19 @@
     text-decoration: none;
 }
 
- 
+ .hidey{
+  display: none;
+ }
+
+ .hidey a{
+  color: rgb(29, 103, 221);
+ }
+
+ .hovery:hover + .hidey{
+  display: block;
+  color: black;
+  
+ }
+ .hovery {
+  cursor: pointer;
+ }
