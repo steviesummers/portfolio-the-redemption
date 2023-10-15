@@ -64,10 +64,13 @@
   }
 
  img {
-  width:80%;
- }
- 
-    
+  width: 25%;
+  height: auto;
+
+
+}
+
+   
 .myDIV:hover + .hide {
   display: block;
   color: red;
