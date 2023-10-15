@@ -127,6 +127,22 @@
   cursor: pointer;
  }
  
+ .hidey3{
+  display: none;
+ }
+
+ .hidey3 a{
+  color: rgb(29, 103, 221);
+ }
+
+ .hovery3:hover + .hidey3{
+  display: block;
+  color: black;
+  
+ }
+ .hovery3 {
+  cursor: pointer;
+ }
  .card-row{
   flex-direction: row;
   justify-content: center;
