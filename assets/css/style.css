@@ -58,13 +58,13 @@
       }
       
 
-.code-card .card-header {
-    border-radius: 8px;
-    transition: all 0.5s ease-in-out;
-  }
+.card-row {
+  justify-content: space-around;
+}
+
 
  img {
-  width: 25%;
+  width: 15%;
   height: auto;
 
 
@@ -76,17 +76,9 @@
   color: red;
 }
   
-  .code-card:hover,
-  .code-card:hover .card-header {
-    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
-  }
-
-.linear-gradient-background {
-    background-image: linear-gradient(
-      rgba(232, 102, 236, 0.3) 0%,
-      rgba(232, 102, 236, 0.6) 100%
-    )
-  }a:hover  {
+  
+    
+  a:hover  {
     text-decoration: none;
 }
 
@@ -105,4 +97,37 @@
  }
  .hovery {
   cursor: pointer;
+ }
+ 
+ .myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+  
+  
+    
+  a:hover  {
+    text-decoration: none;
+}
+
+ .hidey2{
+  display: none;
+ }
+
+ .hidey2 a{
+  color: rgb(29, 103, 221);
+ }
+
+ .hovery2:hover + .hidey2{
+  display: block;
+  color: black;
+  
+ }
+ .hovery2 {
+  cursor: pointer;
+ }
+ 
+ .card-row{
+  flex-direction: row;
+  justify-content: center;
  }
